@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7hgK5La43sdrtSurvYlDD1z5NSaNabKsKXBz1GTKqfDQnPgM8czO+qLN+U5tPrgZjmGY0QR9rRVl+pPJOJ42Cg==",
+  "dgSpecHash": "yssYMOEVXMT/VvS0ZnGdZ/Sj4FGIkcS9cQIO3woJJ01ocLfXk5VQqPacsUG+8kzY01dpvpYlccTrzm5PKuCrGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\Signal-client.csproj",
+  "projectFilePath": "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\Signal-client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

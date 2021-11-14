@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\Signal-client.csproj": {}
+    "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\Signal-client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\Signal-client.csproj": {
+    "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\Signal-client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\Signal-client.csproj",
+        "projectUniqueName": "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\Signal-client.csproj",
         "projectName": "Signal-client",
-        "projectPath": "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\Signal-client.csproj",
+        "projectPath": "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\Signal-client.csproj",
         "packagesPath": "C:\\Users\\ekajd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekajd\\source\\repos\\Signal-client\\Signal-client\\obj\\",
+        "outputPath": "C:\\Users\\ekajd\\source\\repos\\SignalClient\\Signal-client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

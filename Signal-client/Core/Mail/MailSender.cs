@@ -8,17 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Signal_client.Core
+namespace Signal_client.Core.Mail
 {
     class MailSender
     {
-        public static void Send(Models.MailMessage mailMessage)
+        private readonly Models.MailMessage _mailMessage;
+        public MailSender( Models.MailMessage mailMessage)
         {
-            System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage(mailMessage.From, mailMessage.To, mailMessage.Subject, mailMessage.Body);
-            SmtpClient client = new SmtpClient(mailMessage.Server);
-            client.Credentials = new NetworkCredential("21edqcds@gmail.com", "P@ssw0rd_");
+            _mailMessage = mailMessage;
+        }
+        public void Send()
+        {
+            System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage(_mailMessage.From, _mailMessage.To, _mailMessage.Subject, _mailMessage.Body);
+            SmtpClient client = new SmtpClient(_mailMessage.Server);
+            client.Credentials = new NetworkCredential(_mailMessage.From, _mailMessage.Password);
             client.EnableSsl = true;
-            client.Port = 587;
             try
             {
                 client.Send(message);

@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Signal-Client" Height="450" Width="800">
     <Grid>
-        <Button Content="Zaraportuj nieprawidłowość" HorizontalAlignment="Center" VerticalAlignment="Center" Height="98" Width="215" Click="Button_Click"/>
+        
+        <Button Content="Zaraportuj nieprawidłowość" HorizontalAlignment="Left" VerticalAlignment="Center" Height="98" Width="216" Click="Button_Click" Margin="208,0,0,0"/>
 
     </Grid>
 </Window>

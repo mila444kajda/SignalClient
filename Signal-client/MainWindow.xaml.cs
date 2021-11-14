@@ -1,4 +1,6 @@
 ﻿using Signal_client.Core;
+using Signal_client.Core.Mail;
+using Signal_client.Core.Services;
 using Signal_client.Models;
 using System;
 using System.Collections.Generic;
@@ -32,10 +34,17 @@ namespace Signal_client
             MailMessage message = new MailMessage();
             message.Body = "test";
             message.Subject = "Zgłoszenie nieprawidłowości";
-            message.To = "e.kajda@doradztwoiksiegi.com";
+            message.To = "odbierz_sygnal@doradztwoiksiegi.com";
             message.Server = "smtp.gmail.com";
             message.From = "21edqcds@gmail.com";
-            MailSender.Send(message);
+            message.Password = "P@ssw0rd_";
+
+            MailSender mailSender = new MailSender(message);
+
+            MailService mailService = new MailService(mailSender);
+
+            mailService.Send();
+
         }
     }
 }
